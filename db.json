@@ -1,0 +1,176 @@
+{
+  "users": [
+    {
+      "name": "Arjun",
+      "email": "aarrjjuunn444@gmail.com",
+      "password": "12345678",
+      "role": "donor",
+      "id": "h7OAu7WKR_s"
+    },
+    {
+      "name": "Sravan k sasi",
+      "email": "gk6646579@gmail.com",
+      "password": "7654321",
+      "role": "organization",
+      "id": "Yb8IkKAOihE"
+    }
+  ],
+  "foods": [
+    {
+      "foodName": "Cake",
+      "category": "Bakery",
+      "quantity": "10",
+      "location": "palakad",
+      "availableTime": "2026-09-30T18:12",
+      "description": "",
+      "donorId": "h7OAu7WKR_s",
+      "donorName": "Arjun",
+      "status": "completed",
+      "id": "yGqg2jqvpqc"
+    },
+    {
+  "foodName": "Vegetable Biryani",
+  "category": "Cooked Food",
+  "quantity": "25",
+  "location": "Edappally",
+  "availableTime": "2026-10-01T20:00",
+  "description": "Freshly prepared vegetable biryani available for community distribution.",
+  "donorId": "h7OAu7WKR_s",
+  "donorName": "Arjun",
+  "status": "available",
+  "id": "food001"
+},
+{
+  "foodName": "Bread",
+  "category": "Bakery",
+  "quantity": "40",
+  "location": "Kakkanad",
+  "availableTime": "2026-10-01T18:00",
+  "description": "Fresh bread packets suitable for immediate distribution.",
+  "donorId": "h7OAu7WKR_s",
+  "donorName": "Arjun",
+  "status": "available",
+  "id": "food002"
+},
+{
+  "foodName": "Steamed Rice",
+  "category": "Cooked Food",
+  "quantity": "30",
+  "location": "Kaloor",
+  "availableTime": "2026-10-01T19:30",
+  "description": "Freshly cooked rice available for nearby organizations.",
+  "donorId": "h7OAu7WKR_s",
+  "donorName": "Arjun",
+  "status": "available",
+  "id": "food003"
+},
+{
+  "foodName": "Milk Packets",
+  "category": "Dairy",
+  "quantity": "50",
+  "location": "Palarivattom",
+  "availableTime": "2026-10-02T09:00",
+  "description": "Sealed milk packets available for distribution.",
+  "donorId": "h7OAu7WKR_s",
+  "donorName": "Arjun",
+  "status": "available",
+  "id": "food004"
+},
+{
+  "foodName": "Bananas",
+  "category": "Fruits",
+  "quantity": "35",
+  "location": "Aluva",
+  "availableTime": "2026-10-02T17:00",
+  "description": "Fresh bananas suitable for families and community centers.",
+  "donorId": "h7OAu7WKR_s",
+  "donorName": "Arjun",
+  "status": "available",
+  "id": "food005"
+},
+{
+  "foodName": "Chapati and Vegetable Curry",
+  "category": "Cooked Food",
+  "quantity": "20",
+  "location": "Vyttila",
+  "availableTime": "2026-10-01T21:00",
+  "description": "Freshly prepared dinner portions available for redistribution.",
+  "donorId": "h7OAu7WKR_s",
+  "donorName": "Arjun",
+  "status": "available",
+  "id": "food006"
+},
+{
+  "foodName": "Mixed Vegetables",
+  "category": "Vegetables",
+  "quantity": "45",
+  "location": "Thrikkakara",
+  "availableTime": "2026-10-03T17:00",
+  "description": "Fresh vegetables available for community kitchens.",
+  "donorId": "h7OAu7WKR_s",
+  "donorName": "Arjun",
+  "status": "available",
+  "id": "food007"
+},
+{
+  "foodName": "Biscuits",
+  "category": "Packaged Food",
+  "quantity": "60",
+  "location": "Fort Kochi",
+  "availableTime": "2026-10-03T18:00",
+  "description": "Sealed biscuit packets available for distribution.",
+  "donorId": "h7OAu7WKR_s",
+  "donorName": "Arjun",
+  "status": "available",
+  "id": "food008"
+}
+  ],
+  "requests": [
+    {
+      "foodId": "Mqm5bAqPVA0",
+      "foodName": "Fried Rice",
+      "organizationId": "Yb8IkKAOihE",
+      "organizationName": "Sravan k sasi",
+      "donorId": "h7OAu7WKR_s",
+      "status": "accepted",
+      "id": "03zoINPfcJg"
+    },
+    {
+      "foodId": "aiZkOQG8pLI",
+      "foodName": "Biriyani",
+      "organizationId": "Yb8IkKAOihE",
+      "organizationName": "Sravan k sasi",
+      "donorId": "h7OAu7WKR_s",
+      "status": "accepted",
+      "id": "8OHad51XPIg"
+    },
+    {
+      "foodId": null,
+      "foodName": "Bread",
+      "organizationId": "Yb8IkKAOihE",
+      "organizationName": "Sravan k sasi",
+      "donorId": "h7OAu7WKR_s",
+      "status": "accepted",
+      "id": "jbPUbzsgS30"
+    },
+    {
+      "foodId": null,
+      "foodName": "FriedRice",
+      "organizationId": "h7OAu7WKR_s",
+      "organizationName": "Arjun",
+      "donorId": "h7OAu7WKR_s",
+      "status": "accepted",
+      "id": "qCXkGHGJxhM"
+    },
+    {
+      "foodId": "yGqg2jqvpqc",
+      "foodName": "Cake",
+      "organizationId": "Yb8IkKAOihE",
+      "organizationName": "Sravan k sasi",
+      "donorId": "h7OAu7WKR_s",
+      "status": "accepted",
+      "id": "hCb1YC9bnXc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
