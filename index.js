@@ -1,13 +1,14 @@
-const jsonServer= require('json-server')
-const rbServer = jsonServer.create()
+const jsonServer = require('json-server')
+
+const server = jsonServer.create()
 const router = jsonServer.router('db.json')
-const middleware = jsonServer.defaults()
+const middlewares = jsonServer.defaults()
 
-const PORT = 3001
+server.use(middlewares)
+server.use(router)
 
-rbServer.use(middleware)
-rbServer.use(router)
+const PORT = process.env.PORT || 3001
 
-rbServer.listen(PORT,()=>{
-    console.log(`Rb server started running at PORT:${PORT} successfully...`)
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`JSON Server is running on port ${PORT}`)
 })
